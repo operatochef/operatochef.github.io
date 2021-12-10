@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/*!
+ * operato chef website
+ * create - hoppaang
+ * Copyright (c) 2021 hatiolab.com.com
+ */
+
+/* template style reset */
+.nav-link {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.one-fifth-screen {
+  height: 600px;
+}
+section.big-section {
+  padding: 100px 0;
+}
+
+.title-small-1 {
+  font-size: 45px;
+  line-height: 55px;
+}
+.tab-style-02 .nav-tabs > li.nav-item {
+  margin: 0;
+}
+.tab-style-02 .nav-tabs > li.nav-item > a.nav-link > i {
+  margin: 0;
+}
+.nav-tabs > li.nav-item {
+  padding: 0 3px;
+}
+
+.nav-tabs a.active {
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.15);
+  background-color: #38a25b !important;
+}
+.nav-tabs a.active i {
+  color: #fff !important;
+}
+
+.nav-link {
+  padding: 10px;
+}
+.icon-small-overview {
+  font-size: 24px;
+}
+
+@media (max-width: 1199px) {
+  .one-fifth-screen,
+  .lg-h-720px {
+    height: 500px !important;
+  }
+  section.big-section {
+    padding: 70px 0;
+  }
+}
+
+/* common style */
+.primary-text-color {
+  color: #38a25b;
+}
+.secondary-text-color {
+  color: #296235;
+}
+.primary-bg-color {
+  background-color: #38a25b;
+}
+.bg-very-light-green {
+  background-color: #f6fbf4;
+}
+
+/* index page style */
+.key-feature .nav-item a {
+  opacity: 0.8;
+}
+.nav-item a.active {
+  opacity: 1;
+  color: #38a25b !important;
+}
+
+.bg-gradient-chef {
+  background-image: linear-gradient(
+    to right top,
+    #bfda74,
+    #acd873,
+    #7bc269,
+    #49aa5f
+  );
+}
+.integration-msg {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+.counter-unit {
+  position: relative;
+  top: -40px;
+  left: 58px;
+}
+.overview-tab-image {
+  margin-top: -120px;
+}
+
+/* responsive style */
+@media (max-width: 991px) {
+  .integration-msg {
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    margin-top: -30px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 778px) {
+  .overview-tab-image {
+    margin-top: -50px;
+  }
+}
