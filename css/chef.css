@@ -1,121 +1,108 @@
-@charset "UTF-8";
-
-/*!
- * operato chef website
- * create - hoppaang
- * Copyright (c) 2021 hatiolab.com.com
- */
-
-/* template style reset */
-.nav-link {
+.nav-item a {
   text-transform: capitalize;
-  cursor: pointer;
 }
-.one-fifth-screen {
-  height: 600px;
+.swiper-container h2 span {
+  display: block;
+  font-size: 2em;
 }
-section.big-section {
-  padding: 100px 0;
+.post-details {
+  color: #fff;
 }
-
-.title-small-1 {
-  font-size: 45px;
-  line-height: 55px;
+.chef-text-color {
+  color: #40ab66;
 }
-.tab-style-02 .nav-tabs > li.nav-item {
-  margin: 0;
+.chef-text-color-dark {
+  color: #3f5766;
 }
-.tab-style-02 .nav-tabs > li.nav-item > a.nav-link > i {
-  margin: 0;
+.chef-text-color-deep-green {
+  color: #40ab66;
 }
-.nav-tabs > li.nav-item {
-  padding: 0 3px;
+.chef-text-color-operato {
+  color: #0791ad;
 }
-
-.nav-tabs a.active {
-  border-radius: 50%;
-  box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.15);
-  background-color: #38a25b !important;
+.chef-text-color-warehouse {
+  color: #0082f1;
 }
-.nav-tabs a.active i {
-  color: #fff !important;
+.chef-text-light-yellow-color {
+  color: #ffeebf;
 }
-
-.nav-link {
-  padding: 10px;
+.chef-background-color {
+  background-color: #a73c3d;
 }
-.icon-small-overview {
-  font-size: 24px;
+.chef-background-color-opacity8 {
+  background-color: rgba(167, 60, 61, 0.8);
 }
-
-@media (max-width: 1199px) {
-  .one-fifth-screen,
-  .lg-h-720px {
-    height: 500px !important;
-  }
-  section.big-section {
-    padding: 70px 0;
-  }
+.chef-background-color-deep-green {
+  background-color: #40ab66;
 }
-
-/* common style */
-.primary-text-color {
-  color: #38a25b;
+.chef-background-color-operato {
+  background-color: #0791ad;
 }
-.secondary-text-color {
-  color: #296235;
+.chef-background-color-warehouse {
+  background-color: #0082f1;
 }
-.primary-bg-color {
-  background-color: #38a25b;
+.word-keep {
+  word-break: keep-all;
 }
-.bg-very-light-green {
-  background-color: #f6fbf4;
+.small-h5 {
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+}
+.chef-modules .feature-box {
+  height: 100%;
 }
 
-/* index page style */
-.key-feature .nav-item a {
-  opacity: 0.8;
-}
-.nav-item a.active {
-  opacity: 1;
-  color: #38a25b !important;
-}
-
-.bg-gradient-chef {
-  background-image: linear-gradient(
-    to right top,
-    #bfda74,
-    #acd873,
-    #7bc269,
-    #49aa5f
-  );
-}
-.integration-msg {
+[main] .post-details {
   position: absolute;
-  margin-top: -100px;
-  margin-left: -200px;
+  border-radius: 10px;
+  width: 90%;
+  margin-top: -30px;
+  margin-left: 5%;
+  padding: 10px 15px 15px 15px;
 }
-.counter-unit {
-  position: relative;
-  top: -40px;
-  left: 58px;
+[main] .bigscreen-animation img {
+  height: 100%;
+  min-height: 700px;
 }
-.overview-tab-image {
-  margin-top: -120px;
+[main] .bigscreen {
+  left: 0;
+  position: absolute;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 8s;
+  overflow: hidden;
 }
-
-/* responsive style */
-@media (max-width: 991px) {
-  .integration-msg {
-    width: 100%;
-    position: absolute;
-    left: 10px;
-    margin-top: -30px;
-    margin-left: 0;
-  }
+[main] .partners .swiper-slide img {
+  width: 70%;
 }
-@media (max-width: 778px) {
-  .overview-tab-image {
-    margin-top: -50px;
-  }
+.map.grayscale {
+  filter: grayscale(40%);
+}
+.gmaps-holder-2 {
+  padding: 0;
+  height: 500px;
+}
+.moduleicon-chef {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.smartfactory .nav-item .active i {
+  color: #40ab66 !important;
+}
+.icon-eq {
+  width: 85px;
+  height: 85px;
+}
+.biz-warehouse-p {
+  padding: 3px 0;
+  text-align: left;
+  color: #fff;
+}
+.history li strong {
+  margin-right: 10px;
+}
+.company .process-step-item {
+  width: 100%;
 }
