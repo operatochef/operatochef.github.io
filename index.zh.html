@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <title>F&B操作平台</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="hatiolab" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="smart factory, smart HACCP, F&B, food, food & beverage, chef, f&b operation platform"
+    />
+
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="images/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/apple-touch-icon-114x114.png"
+    />
+
+    <!-- style sheets and font icons  -->
+    <link rel="stylesheet" type="text/css" href="css/font-icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/chef.css" />
+  </head>
+
+  <body data-mobile-nav-style="classic">
+    <!-- start header -->
+    <header>
+      <nav
+        class="navbar top-space navbar-expand-lg navbar-light bg-white header-light navbar-boxed fixed-top header-reverse-scroll"
+      >
+        <div class="container-fluid nav-header-container">
+          <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
+            <a class="navbar-brand" href="index.zh.html">
+              <img
+                src="images/logo-black.png"
+                data-at2x="images/logo-black@2x.png"
+                class="default-logo"
+                alt=""
+              />
+              <img
+                src="images/logo-black.png"
+                data-at2x="images/logo-black@2x.png"
+                class="alt-logo"
+                alt=""
+              />
+              <img
+                src="images/logo-black.png"
+                data-at2x="images/logo-black@2x.png"
+                class="mobile-logo"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col-auto menu-order px-lg-0">
+            <button
+              class="navbar-toggler float-end"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav alt-font">
+                <li class="nav-item dropdown simple-dropdown">
+                  <a href="index.zh.html" class="nav-link">平台</a>
+                  <!-- Platform in Chinese -->
+                </li>
+
+                <li class="nav-item dropdown simple-dropdown active">
+                  <a href="business.zh.html" class="nav-link">商业</a>
+                  <!-- Business in Chinese -->
+                </li>
+
+                <li class="nav-item dropdown simple-dropdown">
+                  <a href="support.zh.html" class="nav-link">支持</a>
+                  <!-- Support in Chinese -->
+                </li>
+
+                <li class="nav-item dropdown simple-dropdown">
+                  <a
+                    href="https://cook.operatochef.com/auth/checkin"
+                    class="nav-link"
+                    >登录</a
+                  >
+                  <!-- Login in Chinese -->
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-auto text-end pe-0 font-size-0">
+            <div class="header-language dropdown d-lg-inline-block">
+              <a href="javascript:void(0);"
+                ><i class="feather icon-feather-globe"></i
+              ></a>
+              <ul class="dropdown-menu alt-font">
+                <li>
+                  <a href="/index.html" title="Korean"
+                    ><span class="icon-country"
+                      ><img src="images/South Korea.png" alt="" /></span
+                    >korean</a
+                  >
+                </li>
+                <li>
+                  <a href="/index.en.html" title="English"
+                    ><span class="icon-country"
+                      ><img src="images/usa.png" alt="" /></span
+                    >English</a
+                  >
+                </li>
+                <li>
+                  <a href="/index.zh.html" title="Chinese"
+                    ><span class="icon-country"
+                      ><img src="images/china.png" alt="" /></span
+                    >中文</a
+                  >
+                  <!-- Chinese in Chinese -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <div class="main-content">
+      <!-- start overview section -->
+      <section
+        class="big-section cover-background"
+        style="
+          background-image: url('images/home-corporate-hand-crafted-bg.jpg');
+        "
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="d-flex flex-row align-items-center justify-content-center text-center margin-15px-bottom"
+            >
+              <span
+                class="w-25px h-1px chef-background-color-deep-green opacity-4"
+              ></span>
+              <div
+                class="alt-font text-extra-medium chef-text-color-deep-green padding-10px-lr"
+              >
+                Operato Chef 有什么不同之处？
+                <!-- What makes Operato Chef different? -->
+              </div>
+              <span
+                class="w-25px h-1px chef-background-color-deep-green opacity-4"
+              ></span>
+            </div>
+            <h4
+              class="alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-1px margin-10px-bottom text-center"
+            >
+              轻松决策，舒适工作，选择 Operato Chef
+              <!-- Make Decisions Easily, Work Comfortably with Operato Chef -->
+            </h4>
+            <p
+              class="d-inline-block letter-spacing-minus-1 text-extra-medium text-center chef-text-color-dark"
+            >
+              从订单管理到库存跟踪，生产计划，工作订单，到发货和交付，一切都可以一目了然，实时监控。
+              <!-- From order management to inventory tracking, production planning, and work orders, to shipment and delivery, everything can be managed at a glance and monitored in real time. -->
+            </p>
+          </div>
+          <div class="row align-items-center justify-content-center">
+            <div
+              class="col-12 col-lg-8 position-relative md-margin-9-rem-bottom wow animate__fadeIn"
+            >
+              <div class="w-100 overflow-hidden position-relative xs-w-80">
+                <img src="images/product-chef-overview1-1.png" alt="" />
+              </div>
+              <div
+                class="position-absolute left-minus-10px bottom-minus-20px w-45 lg-bottom-minus-30px xs-right-15px"
+                data-wow-delay="0.2s"
+                data-parallax-layout-ratio="1.1"
+              >
+                <img src="images/product-chef-overview1.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <h4
+                class="alt-font text-extra-dark-gray letter-spacing-minus-1px font-weight-600 margin-2-rem-bottom md-margin-1-rem-bottom wow animate__fadeIn"
+              >
+                就像给沙拉加料一样，<br /><span
+                  class="text-gradient-fuego-turquoise font-weight-800"
+                  style="font-size: 1.1em"
+                >
+                  只需选择您需要的功能，一切都好！</span
+                >
+                <!-- Just like topping a salad, just choose the features you need, and you're OK! -->
+              </h4>
+              <div class="row">
+                <!-- start feature box item -->
+                <div class="col-12 wow animate__fadeIn" data-wow-delay="0.2s">
+                  <div class="feature-box feature-box-left-icon">
+                    <div class="feature-box-content last-paragraph-no-margin">
+                      <span
+                        class="chef-text-color-dark text-extra-medium d-block word-keep"
+                      >
+                        复杂和困难的系统可能会让人感到压倒性，对吧？Operato Chef
+                        是一个为食品制造和加工行业优化的生产/运营解决方案，利用最新的物联网技术帮助您轻松管理从客户订单到生产和发货的整个过程。</span
+                      >
+                      <!-- Complex and difficult systems can be overwhelming, right? Operato Chef, an optimized production/operation solution for the food manufacturing and processing industry, leverages the latest IoT technology to help you easily manage the entire process from customer orders to production and shipment. -->
+                    </div>
+                  </div>
+                </div>
+                <!-- end feature box item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end overview section -->
+
+      <!-- start quality data section -->
+      <section
+        class="bg-light-blue cover-background"
+        style="background-image: url('images/bg-quality-data-free.png')"
+      >
+        <div class="container">
+          <div class="row justify-content-center wow animate__fadeIn">
+            <div
+              class="col-12 col-xl-9 col-lg-9 col-sm-9 text-center margin-1-rem-bottom md-margin-5-rem-bottom"
+            >
+              <span
+                class="d-inline-block alt-font title-small text-white font-weight-700 margin-20px-bottom sm-margin-15px-bottom"
+              >
+                食品饮料制造的核心：数据收集与管理
+              </span>
+              <p
+                class="alt-font text-white text-extra-medium text-extra-dark-gray letter-spacing-minus-1px"
+              >
+                食品和饮料制造的关键在于数据！从产品到调味酱混合的专业知识数据，操作厨师是管理每个制造过程的质量数据的首选。
+                <br />它安全管理必要的专业知识数据，并完美处理每个制造过程的质量数据的自动收集、分析、监控和预测。
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <!-- start feature box item -->
+            <div
+              class="col-12 col-lg-3 col-md-6 margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+            >
+              <div
+                class="feature-box h-100 border-radius-5px chef-background-color-deep-green { box-shadow-small box-shadow-extra-large-hover overflow-hidden padding-2-rem-all"
+              >
+                <div class="feature-box-icon">
+                  <i class="ti-cloud icon-medium text-yellowish-green"></i>
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="alt-font font-weight-700 margin-10px-bottom d-block text-white text-extra-large"
+                  >
+                    自动收集 & 云端
+                  </span>
+                  <p class="text-white">
+                    自动收集制造过程中的关键数据，包括HACCP数据、过程/生产、库存等，实时传输到云端。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end feature box item -->
+            <!-- start feature box item -->
+            <div
+              class="col-12 col-lg-3 col-md-6 margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="0.2s"
+            >
+              <div
+                class="feature-box h-100 border-radius-5px bg-white box-shadow-small box-shadow-extra-large-hover overflow-hidden padding-2-rem-all"
+              >
+                <div class="feature-box-icon">
+                  <i
+                    class="line-icon-Cursor-Click2 icon-medium chef-text-color-deep-green"
+                  ></i>
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="alt-font font-weight-700 margin-10px-bottom d-block text-extra-large"
+                  >
+                    分析
+                  </span>
+                  <p>
+                    分析云端收集的各种数据，自动创建CCP检查日志，并将生产/过程/库存数据分析传输到监控仪表板。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end feature box item -->
+
+            <!-- start feature box item -->
+            <div
+              class="col-12 col-lg-3 col-md-6 margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="0.2s"
+            >
+              <div
+                class="feature-box h-100 border-radius-5px chef-background-color-deep-green { box-shadow-small box-shadow-extra-large-hover overflow-hidden padding-2-rem-all"
+              >
+                <div class="feature-box-icon">
+                  <i class="ti-dashboard icon-medium text-yellowish-green"></i>
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="alt-font font-weight-700 margin-10px-bottom d-block text-extra-large text-white"
+                  >
+                    监控
+                  </span>
+                  <p class="text-white">
+                    实时监控管理指标和关键控制项目，对偏差发出警报，并通过事后数据记录确保数据的可靠性。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end feature box item -->
+
+            <!-- start feature box item -->
+            <div
+              class="col-12 col-lg-3 col-md-6 margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="0.2s"
+            >
+              <div
+                class="feature-box h-100 border-radius-5px bg-white box-shadow-small box-shadow-extra-large-hover overflow-hidden padding-2-rem-all"
+              >
+                <div class="feature-box-icon">
+                  <i
+                    class="ti-target icon-medium chef-text-color-deep-green"
+                  ></i>
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="alt-font font-weight-700 margin-10px-bottom d-block text-extra-large"
+                  >
+                    预测
+                  </span>
+                  <p>
+                    通过分析和学习收集的数据，增强现场生产力和稳定性，并预测关键管理指标和设备管理。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end feature box item -->
+          </div>
+        </div>
+      </section>
+      <!-- end quality data section -->
+
+      <!-- start function section -->
+      <section class="bg-transparent-deep-green1 chef-modules">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div
+              class="col-12 col-xl-6 col-lg-7 col-md-8 col-sm-10 text-center margin-2-rem-bottom sm-margin-1-rem-bottom"
+            >
+              <span
+                class="alt-font font-weight-500 chef-text-color-deep-green text-uppercase d-block margin-10px-bottom letter-spacing-1px"
+                >操作厨师模块列表</span
+              >
+              <h4
+                class="chef-text-color-dark font-weight-700 letter-spacing-minus-1px"
+              >
+                推出12个关键模块
+              </h4>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2">
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-01.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    主数据管理
+                  </span>
+                  <p>对生产过程中的主数据的创建、修改和处置进行全面管理。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="0.2s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-02.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    生产/工艺管理
+                  </span>
+                  <p>管理生产计划、工作订单、绩效/产量、详细流程和制造历史。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="0.6s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-03.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                    >智能HACCP</span
+                  >
+                  <p>
+                    收集和监控CCP数据、偏差情况、检查项目和其他质量管理方面的数据。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="0.8s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-04.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    订单管理
+                  </span>
+                  <p>管理与客户通信，包括接收客户订单和共享生产计划。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="1.0s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-05.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    库存管理
+                  </span>
+                  <p>实时管理进出货物、原材料/半成品/成品库存和在制品管理。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="1.2s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-06.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    设备管理
+                  </span>
+                  <p>管理制造设备清单/历史，分析和预测预测性维护数据。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="1.4s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-07.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    车辆管理
+                  </span>
+                  <p>管理运输车辆的路线和时间表、总体状态和装载管理。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="1.6s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-08.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    综合监控
+                  </span>
+                  <p>实时监控与管理指标相关的数据，实现制造现场的监控。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="1.8s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-09.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    标签管理
+                  </span>
+                  <p>生产和运输标签的管理，PPT格式标签设计和管理。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="2.0s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-10.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    用户UI管理
+                  </span>
+                  <p>按角色和流程管理用户界面，简化设计和数据链接。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="2.2s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-11.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    人工智能智能
+                  </span>
+                  <p>
+                    收集生产、工艺、设备和质量数据；分析/学习模块；预测和模式分析。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+            <!-- 开始特色框项目 -->
+            <div
+              class="col margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn"
+              data-wow-delay="2.4s"
+            >
+              <div
+                class="feature-box bg-white box-shadow-small box-shadow-large-hover border-radius-6px padding-2-rem-all"
+              >
+                <div
+                  class="feature-box-icon moduleicon-chef margin-10px-bottom"
+                >
+                  <img class="" src="images/moduleicon-12.png" alt="" />
+                </div>
+                <div class="feature-box-content last-paragraph-no-margin">
+                  <span
+                    class="font-weight-700 text-large margin-5px-bottom d-block chef-text-color-dark"
+                  >
+                    API管理
+                  </span>
+                  <p>管理连接各种应用程序和服务的接口。</p>
+                </div>
+              </div>
+            </div>
+            <!-- 结束特色框项目 -->
+          </div>
+        </div>
+      </section>
+      <!-- end function section -->
+
+      <!-- start inventory section -->
+      <section class="big-section" style="padding-bottom: 0">
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-center z-index-0 position-relative"
+          >
+            <div class="col-12 text-center">
+              <h5
+                class="alt-font font-weight-700 letter-spacing-minus-1px w-95 text-gradient-peacock-blue-crome-yellow-2 m-md-0 lg-w-100 sm-line-height-32px title-small line-height-50px"
+              >
+                <span
+                  class="text-gradient-fuego-turquoise font-weight-700"
+                  style="font-size: 1.1em"
+                >
+                  降低成本的关键，实时监测！
+                </span>
+              </h5>
+              <p
+                class="chef-text-color-dark text-extra-medium d-block word-keep"
+              >
+                食品和饮料制造受到诸如温度、新鲜度、保质期以及调味料和成品等原料的成熟度等因素的高度影响。<br />
+                季节性产品？销售产品？发货产品？定制产品？促销产品？复杂的分销渠道可以在智能制造环境中使用物联网和云技术进行管理。<br />
+                库存核对和追溯可以实现成本节省和生产效率的同时提高！
+              </p>
+            </div>
+            <div
+              class="col-12 wow animate__zoomIn tilt-box margin-3-rem-bottom md-margin-3-rem-bottom"
+              data-wow-delay="0.4s"
+              data-tilt-options='{ "maxTilt": 20, "perspective": 1000, "easing": "cubic-bezier(.03,.98,.52,.99)", "scale": 1, "speed": 500, "transition": true, "reset": true, "glare": false, "maxGlare": 1 }'
+            >
+              <img src="images/monitoring.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end inventory section -->
+
+      <!-- start business area section -->
+      <section
+        class="big-section bg-transparent-deep-green1 overlap-height overflow-visible md-no-overlap-section"
+        style="max-height: 490px"
+      >
+        <div class="container">
+          <div class="row overlap-gap-section md-margin-6-rem-top">
+            <div
+              class="col-12 col-md-5 wow animate__fadeIn"
+              data-wow-delay="0.1s"
+            >
+              <h5
+                class="font-weight-600 text-lg-end letter-spacing-minus-1px w-95 m-md-0 lg-w-100 sm-line-height-32px title-small line-height-50px"
+              >
+                应用于这些业务领域效果更好<br /><span
+                  class="text-gradient-fuego-turquoise font-weight-700"
+                  >甚至更有效</span
+                >
+              </h5>
+            </div>
+            <div
+              class="col-12 col-md-7 wow animate__fadeIn"
+              data-wow-delay="0.3s"
+            >
+              <p class="line-height-32px w-95">
+                辛勤工作但销售不尽人意？如果您的业务规模增长，但损失也增加了？<br />采用在食品和饮料产品制造、餐盒制造、餐饮等各种业务领域中被证明有效的系统专业知识。<br />成本泄漏、原料浪费、产品丢失、退货处理、劳动成本上升等等
+                - operato chef 一应俱全。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section -->
+      <!-- start section -->
+      <section class="pt-lg-0 overflow-visible">
+        <div class="container">
+          <div class="row justify-content-center overlap-section">
+            <!-- start rotate box item -->
+            <div
+              class="col-12 col-lg-4 col-md-6 col-sm-8 md-margin-30px-bottom xs-margin-15px-bottom wow animate__flipInY"
+              data-wow-delay="0.2s"
+            >
+              <div class="rm-rotate-box text-center">
+                <div class="flipper to-left">
+                  <div class="thumb-wrap">
+                    <div
+                      class="front border-radius-4px overflow-hidden"
+                      style="
+                        background-image: url('images/bizarea-01-free.png');
+                      "
+                    >
+                      <div
+                        class="opacity-extra-medium-2 bg-transparent-gradiant-white-black"
+                      ></div>
+                      <div class="content-wrap padding-15px-lr">
+                        <span
+                          class="text-white text-large letter-spacing-1px margin-5px-bottom text-uppercase alt-font d-inline-block font-weight-500"
+                          >食品生产</span
+                        >
+                        <span
+                          class="text-white opacity-6 text-medium text-uppercase letter-spacing-1-half alt-font d-block"
+                          >食谱、菜单和数据的中心枢纽。全组织都可访问。</span
+                        >
+                      </div>
+                    </div>
+                    <div class="back border-radius-4px overflow-hidden">
+                      <div class="overlay-bg bg-gradient-sky-blue-pink"></div>
+                      <div
+                        class="content-wrap padding-60px-all lg-padding-30px-lr md-padding-40px-lr xs-padding-30px-all"
+                      >
+                        <i
+                          class="icon-simple-line-social-dropbox icon-large text-white margin-35px-bottom xs-margin-25px-bottom"
+                        ></i>
+                        <span
+                          class="text-white text-extra-medium letter-spacing-1px font-weight-500 text-uppercase alt-font d-block margin-10px-bottom"
+                          >食品生产</span
+                        >
+                        <p class="text-white opacity-7">
+                          食谱、菜单和数据的中心枢纽。全组织都可访问。
+                        </p>
+                        <!--a
+                        href="#"
+                        class="btn btn-link thin btn-extra-large text-extra-dark-gray"
+                        >前往详细页面</a
+                      --></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end rotate box item -->
+            <!-- start rotate box item -->
+            <div
+              class="col-12 col-lg-4 col-md-6 col-sm-8 md-margin-30px-bottom xs-margin-15px-bottom wow animate__flipInY"
+              data-wow-delay="0.4s"
+            >
+              <div class="rm-rotate-box text-center">
+                <div class="flipper to-left">
+                  <div class="thumb-wrap">
+                    <div
+                      class="front border-radius-4px overflow-hidden"
+                      style="background-image: url('images/bizarea-02.png')"
+                    >
+                      <div
+                        class="opacity-extra-medium-2 bg-transparent-gradiant-white-black"
+                      ></div>
+                      <div class="content-wrap padding-15px-lr">
+                        <span
+                          class="text-white text-large letter-spacing-1px margin-5px-bottom text-uppercase alt-font d-inline-block font-weight-500"
+                          >餐盒制造</span
+                        >
+                        <span
+                          class="text-white opacity-6 text-medium text-uppercase letter-spacing-1-half alt-font d-block"
+                          >计划生产、生成BOM并监控执行。</span
+                        >
+                      </div>
+                    </div>
+                    <div class="back border-radius-4px overflow-hidden">
+                      <div class="overlay-bg bg-gradient-sky-blue-pink"></div>
+                      <div
+                        class="content-wrap padding-60px-all lg-padding-30px-lr md-padding-40px-lr xs-padding-30px-all"
+                      >
+                        <i
+                          class="icon-simple-line-drawer icon-large text-white margin-35px-bottom xs-margin-25px-bottom"
+                        ></i>
+                        <span
+                          class="text-white text-extra-medium letter-spacing-1px font-weight-500 text-uppercase alt-font d-block margin-10px-bottom"
+                          >餐盒制造</span
+                        >
+                        <p class="text-white opacity-7">
+                          计划生产、生成BOM并监控执行。
+                        </p>
+                        <!--a
+                        href="#"
+                        class="btn btn-link thin btn-extra-large text-extra-dark-gray"
+                        >前往详细页面</a
+                      --></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end rotate box item -->
+            <!-- start rotate box item -->
+            <div
+              class="col-12 col-lg-4 col-md-6 col-sm-8 wow animate__flipInY"
+              data-wow-delay="0.6s"
+            >
+              <div class="rm-rotate-box text-center">
+                <div class="flipper to-left">
+                  <div class="thumb-wrap">
+                    <div
+                      class="front border-radius-4px overflow-hidden"
+                      style="
+                        background-image: url('images/bizarea-03-free.png');
+                      "
+                    >
+                      <div
+                        class="opacity-extra-medium-2 bg-transparent-gradiant-white-black"
+                      ></div>
+                      <div class="content-wrap padding-15px-lr">
+                        <span
+                          class="text-white text-large letter-spacing-1px margin-5px-bottom text-uppercase alt-font d-inline-block font-weight-500"
+                          >餐饮</span
+                        >
+                        <span
+                          class="text-white opacity-6 text-medium text-uppercase letter-spacing-1-half alt-font d-block"
+                          >需要时订购所需物品，不多不少。</span
+                        >
+                      </div>
+                    </div>
+                    <div class="back border-radius-4px overflow-hidden">
+                      <div class="overlay-bg bg-gradient-sky-blue-pink"></div>
+                      <div
+                        class="content-wrap padding-60px-all lg-padding-30px-lr md-padding-40px-lr xs-padding-30px-all"
+                      >
+                        <i
+                          class="icon-simple-line-magic-wand icon-large text-white margin-35px-bottom xs-margin-25px-bottom"
+                        ></i>
+                        <span
+                          class="text-white text-extra-medium letter-spacing-1px font-weight-500 text-uppercase alt-font d-block margin-10px-bottom"
+                          >餐饮</span
+                        >
+                        <p class="text-white opacity-7">
+                          需要时订购所需物品，不多不少。
+                        </p>
+                        <!--a
+                        href="#"
+                        class="btn btn-link thin btn-extra-large text-extra-dark-gray"
+                        >前往详细页面</a
+                      --></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end rotate box item -->
+          </div>
+        </div>
+      </section>
+      <!-- end business area section -->
+    </div>
+
+    <!-- start footer -->
+    <footer class="footer-dark bg-slate-blue">
+      <div
+        class="footer-bottom padding-35px-tb border-top border-width-1px border-color-white-transparent"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="col-12 col-md-3 text-center text-md-start sm-margin-20px-bottom"
+            >
+              <a href="index.en.html" class="footer-logo"
+                ><img
+                  src="images/logo-white.png"
+                  data-at2x="images/logo-white@2x.png"
+                  style="width: 160px"
+                  alt=""
+              /></a>
+            </div>
+            <div
+              class="col-12 col-md-6 text-center last-paragraph-no-margin sm-margin-20px-bottom"
+            >
+              <p>
+                &copy; 2022 Operato Chef is Proudly Powered by
+                <a
+                  href="https://www.hatiolab.com/"
+                  target="_blank"
+                  class="text-decoration-line-bottom text-white text-white-hover"
+                  >Hatiolab.Inc</a
+                >
+              </p>
+            </div>
+            <div class="col-12 col-md-3 text-center text-md-end">
+              <div class="social-icon-style-12">
+                <ul class="extra-small-icon light">
+                  <li>
+                    <a
+                      class="facebook"
+                      href="https://www.facebook.com/Hatiolab-104023444762842"
+                      target="_blank"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="linkedin"
+                      href="https://www.linkedin.com/company/hatiolab"
+                      target="_blank"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="youtube"
+                      href="https://www.youtube.com/channel/UCTpKKLZ1pYB87yI-DoEpwfQ/featured"
+                      target="_blank"
+                      ><i class="fab fa-youtube"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- start scroll to top -->
+    <a class="scroll-top-arrow" href="javascript:void(0);"
+      ><i class="feather icon-feather-arrow-up"></i
+    ></a>
+    <!-- end scroll to top -->
+    <!-- javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/theme-vendors.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

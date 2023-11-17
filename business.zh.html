@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <title>F&B操作平台</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="hatiolab" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="smart factory, smart HACCP, F&B, food, food & beverage, chef, f&b operation platform"
+    />
+
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="images/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/apple-touch-icon-114x114.png"
+    />
+
+    <!-- style sheets and font icons  -->
+    <link rel="stylesheet" type="text/css" href="css/font-icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="css/chef.css" />
+  </head>
+
+  <body data-mobile-nav-style="classic">
+    <!-- start header -->
+    <header>
+      <nav
+        class="navbar top-space navbar-expand-lg navbar-light bg-white header-light navbar-boxed fixed-top header-reverse-scroll"
+      >
+        <div class="container-fluid nav-header-container">
+          <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
+            <a class="navbar-brand" href="index.zh.html">
+              <img
+                src="images/logo-black.png"
+                data-at2x="images/logo-black@2x.png"
+                class="default-logo"
+                alt=""
+              />
+              <img
+                src="images/logo-black.png"
+                data-at2x="images/logo-black@2x.png"
+                class="alt-logo"
+                alt=""
+              />
+              <img
+                src="images/logo-black.png"
+                data-at2x="images/logo-black@2x.png"
+                class="mobile-logo"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col-auto menu-order px-lg-0">
+            <button
+              class="navbar-toggler float-end"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+              <span class="navbar-toggler-line"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav alt-font">
+                <li class="nav-item dropdown simple-dropdown">
+                  <a href="index.zh.html" class="nav-link">平台</a>
+                  <!-- Platform in Chinese -->
+                </li>
+
+                <li class="nav-item dropdown simple-dropdown active">
+                  <a href="business.zh.html" class="nav-link">商业</a>
+                  <!-- Business in Chinese -->
+                </li>
+
+                <li class="nav-item dropdown simple-dropdown">
+                  <a href="support.zh.html" class="nav-link">支持</a>
+                  <!-- Support in Chinese -->
+                </li>
+
+                <li class="nav-item dropdown simple-dropdown">
+                  <a
+                    href="https://cook.operatochef.com/auth/checkin"
+                    class="nav-link"
+                    >登录</a
+                  >
+                  <!-- Login in Chinese -->
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-auto text-end pe-0 font-size-0">
+            <div class="header-language dropdown d-lg-inline-block">
+              <a href="javascript:void(0);"
+                ><i class="feather icon-feather-globe"></i
+              ></a>
+              <ul class="dropdown-menu alt-font">
+                <li>
+                  <a href="/business.html" title="Korean"
+                    ><span class="icon-country"
+                      ><img src="images/South Korea.png" alt="" /></span
+                    >korean</a
+                  >
+                </li>
+                <li>
+                  <a href="/business.en.html" title="English"
+                    ><span class="icon-country"
+                      ><img src="images/usa.png" alt="" /></span
+                    >English</a
+                  >
+                </li>
+                <li>
+                  <a href="/business.zh.html" title="Chinese"
+                    ><span class="icon-country"
+                      ><img src="images/China.png" alt="" /></span
+                    >中文</a
+                  >
+                  <!-- Chinese in Chinese -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end header -->
+
+    <div class="main-content">
+      <!-- start overview title -->
+      <section
+        id="about"
+        class="overlap-height wow animate__fadeIn padding-20px-bottom parallax"
+        data-parallax-background-ratio="0.5"
+        style="background-image: url('images/our-story-bg.jpg')"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div
+              class="col-12 col-xl-8 col-lg-10 text-center overlap-gap-section"
+            >
+              <div
+                class="w-40px h-2px bg-gradient-yellowish-green-turquoise separator-line-vertical margin-30px-tb d-inline-block"
+              ></div>
+              <h5
+                class="alt-font font-weight-500 text-extra-dark-gray letter-spacing-minus-1px"
+              >
+                <span class="text-gradient-fuego-turquoise font-weight-600"
+                  >Operato Chef</span
+                >提供定制客户需求的优化智能工厂解决方案，提高生产效率和竞争力。
+              </h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="position-relative bg-gradient-sky-blue-pink overflow-visible padding-70px-bottom"
+      >
+        <div class="container">
+          <div class="z-index-6 overlap-section-one-fourth">
+            <div
+              class="d-flex flex-column margin-4-rem-bottom sm-margin-7-rem-bottom"
+            >
+              <div class="row">
+                <div class="col-12 col-md-12 z-index-0">
+                  <span
+                    class="text-overlap text-uppercase title-extra-large-heavy alt-font text-center d-none d-md-block font-weight-700 opacity-1 z-index-minus-1"
+                    >概述</span
+                  >
+                  <div
+                    class="tilt-box"
+                    data-tilt-options='{ "maxTilt": 20, "perspective": 1000, "easing": "cubic-bezier(.03,.98,.52,.99)", "scale": 1, "speed": 500, "transition": true, "reset": true, "glare": false, "maxGlare": 1 }'
+                  >
+                    <img
+                      src="images/biz-smartfactory-overview.png"
+                      class="position-relative z-index-6 border-radius-6px"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <!-- start process steps item -->
+            <div
+              class="col-12 col-md-4 col-sm-8 text-center process-step-style-04 sm-margin-4-rem-bottom wow animate__fadeIn"
+            >
+              <div class="process-step-item">
+                <span class="process-step-item-bfr bg-white"></span>
+                <div class="process-step-item-box">
+                  <span
+                    class="process-step-item-box-bfr bg-white opacity-2 d-none d-md-block"
+                  ></span>
+                  <div class="process-step-icon">
+                    <span class="process-step-icon-bfr bg-white"></span>
+                    <span
+                      class="process-step-number chef-text-color-dark alt-font font-weight-500"
+                      ><span class="process-step-number-bfr bg-white"></span
+                      ><i class="ti-world icon-small align-middle"></i
+                    ></span>
+                  </div>
+                  <div class="process-content last-paragraph-no-margin">
+                    <span
+                      class="d-block font-weight-700 text-white margin-10px-bottom text-large"
+                      >优化生产/供应链管理</span
+                    >
+                    <p class="text-white opacity-8">
+                      从客户订单管理到以食品制造为重点的优化生产操作，Operato平台提供多种针对客户需求定制的模块，包括用户便利性和运输车辆管理。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end process steps item -->
+
+            <!-- start process steps item -->
+            <div
+              class="col-12 col-md-4 col-sm-8 text-center process-step-style-04 wow animate__fadeIn"
+              data-wow-delay="0.4s"
+            >
+              <div class="process-step-item">
+                <span class="process-step-item-bfr bg-white"></span>
+                <div class="process-step-item-box">
+                  <span
+                    class="process-step-item-box-bfr bg-white opacity-2"
+                  ></span>
+                  <div class="process-step-icon">
+                    <span class="process-step-icon-bfr bg-white"></span>
+                    <span
+                      class="process-step-number ibex-text-color-dark alt-font font-weight-500"
+                      ><span class="process-step-number-bfr bg-white"></span
+                      ><i class="ti-server icon-small align-middle"></i
+                    ></span>
+                  </div>
+                  <div class="process-content last-paragraph-no-margin">
+                    <span
+                      class="d-block font-weight-700 text-white margin-10px-bottom text-large"
+                      >智能HACCP
+                    </span>
+                    <p class="text-white opacity-8">
+                      我们自动收集食品生产环境和流程的数据，并分析所收集的数据。这包括管理超出限制的偏差的工作流程，同时提供智能HACCP系统的构建和认证。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end process steps item -->
+            <!-- start process steps item -->
+            <div
+              class="col-12 col-md-4 col-sm-8 text-center process-step-style-04 sm-margin-6-rem-bottom wow animate__fadeIn"
+              data-wow-delay="0.2s"
+            >
+              <div class="process-step-item">
+                <span class="process-step-item-bfr bg-white"></span>
+                <div class="process-step-item-box">
+                  <span
+                    class="process-step-item-box-bfr bg-white opacity-2 d-none d-md-block"
+                  ></span>
+                  <div class="process-step-icon">
+                    <span class="process-step-icon-bfr bg-white"></span>
+                    <span
+                      class="process-step-number ibex-text-color-dark alt-font font-weight-500"
+                      ><span class="process-step-number-bfr bg-white"></span
+                      ><i class="ti-tablet icon-small align-middle"></i
+                    ></span>
+                  </div>
+                  <div class="process-content last-paragraph-no-margin">
+                    <span
+                      class="d-block font-weight-700 text-white margin-10px-bottom text-large"
+                      >适用于每个现场的智能设备
+                    </span>
+                    <p class="text-white opacity-8">
+                      我们提供适用于现场设备、工作流程和环境的智能设备范围，从自动化产量管理的智能秤到从不同设施和环境数据轻松收集数据的各种传感器和设备。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end process steps item -->
+          </div>
+        </div>
+      </section>
+
+      <!-- end overview section -->
+
+      <!-- start business architecture section -->
+      <section
+        class="padding-100px-tb md-padding-85px-tb sm-padding-60px-tb text-center text-sm-start"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="d-flex flex-row align-items-center justify-content-center text-center margin-15px-bottom"
+            >
+              <span
+                class="w-25px h-1px ibex-background-color-deep-green opacity-4"
+              ></span>
+              <div
+                class="alt-font text-extra-medium ibex-text-color-deep-green padding-10px-lr"
+              >
+                智能工厂业务架构
+              </div>
+              <span
+                class="w-25px h-1px ibex-background-color-deep-green opacity-4"
+              ></span>
+            </div>
+            <h4
+              class="alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-1px margin-20px-bottom text-center"
+            >
+              智能工厂一站式购物​
+            </h4>
+            <p
+              class="d-inline-block letter-spacing-minus-1 text-extra-medium text-center ibex-text-color-dark"
+            >
+              智能工厂不仅仅是由物联网设备构成的。<br />
+              从将现有设备连接到网络到各种传感器和智能秤，类似的物联网设备，以及构建稳定数据传输的网络基础设施，Operato
+              Chef 可以实现一站式购物，包括食品生产和运营管理软件。
+            </p>
+            <div
+              class="col-12 text-center margin-2-rem-bottom sm-margin-1-rem-bottom"
+            >
+              <img src="images/biz-smartfactory-architecture.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end business architecture section -->
+
+      <!-- start business architecture detail section -->
+      <section class="bg-light-gray wow animate__fadeIn">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div
+              class="d-flex flex-row align-items-center justify-content-center text-center margin-30px-bottom"
+            >
+              <span
+                class="w-25px h-1px ibex-background-color-deep-green opacity-4"
+              ></span>
+              <div
+                class="alt-font text-extra-medium ibex-text-color-deep-green padding-10px-lr"
+              >
+                智能工厂业务架构细节
+              </div>
+              <span
+                class="w-25px h-1px ibex-background-color-deep-green opacity-4"
+              ></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 tab-style-02 smartfactory">
+              <!-- start tab navigation -->
+              <ul
+                class="nav nav-tabs justify-content-center text-center alt-font"
+              >
+                <li class="nav-item">
+                  <a
+                    data-bs-toggle="tab"
+                    href="#archiDetail1"
+                    class="nav-link padding-20px-all active"
+                  >
+                    <i class="ti-direction-alt icon-small"></i>咨询服务
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    data-bs-toggle="tab"
+                    href="#archiDetail2"
+                    class="nav-link padding-20px-all"
+                  >
+                    <i class="ti-tablet icon-small"></i>智能设备
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    data-bs-toggle="tab"
+                    href="#archiDetail3"
+                    class="nav-link padding-20px-all"
+                  >
+                    <i class="ti-plug icon-small"></i>连接性
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    data-bs-toggle="tab"
+                    href="#archiDetail4"
+                    class="nav-link padding-20px-all"
+                  >
+                    <i class="ti-settings icon-small"></i>运营主厨
+                  </a>
+                </li>
+              </ul>
+              <!-- end tab navigation -->
+              <div
+                class="tab-content bg-white padding-30px-all border-radius-10px"
+              >
+                <!-- start tab item -->
+                <div id="archiDetail1" class="tab-pane fade in active show">
+                  <div class="row align-items-lg-center">
+                    <div class="col-12">
+                      <h6
+                        class="margin-20px-bottom font-weight-500 text-extra-dark-gray w-95 md-w-100"
+                      >
+                        就像每个公司都有不同的目标和情况一样，智能工厂也应该是不同的。<br />
+                        <span
+                          class="text-gradient-fuego-turquoise font-weight-600"
+                        >
+                          特别是当生产的产品和市场不同时，情况就更加复杂了。
+                        </span>
+                        <br />
+                        Operato Chef
+                        提供服务，设计系统，以满足食品和饮料制造客户多样化的目标和情况。
+                      </h6>
+                      <ul class="list-style-02">
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span>
+                            情况分析和业务目标设定：全面分析销售、采购、生产、发货、交付等，建立智能工厂建设的目标，制定关键绩效指标等。
+                          </span>
+                        </li>
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span>
+                            流程改进和系统配置计划：确定瓶颈/改进点，根据流程改进策略建立系统配置。
+                          </span>
+                        </li>
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span>
+                            数据收集策略：创建必要数据列表，如CCP、质量、过程、生产、库存等，并制定适合现场的数据收集计划。
+                          </span>
+                        </li>
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span>
+                            用户界面设计：配置适合特定流程、角色和职位的用户界面，并通过直观的屏幕布局防止工作错误。
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- end tab item -->
+                <!-- start tab item -->
+                <div id="archiDetail2" class="tab-pane fade">
+                  <div class="row align-items-lg-center">
+                    <div class="col-12">
+                      <h6
+                        class="margin-20px-bottom font-weight-500 text-extra-dark-gray w-95 md-w-100"
+                      >
+                        数据收集是配置智能工厂的非常重要的第一步。<br />
+                        除了稳定的数据收集，我们
+                        <span
+                          class="text-gradient-fuego-turquoise font-weight-600"
+                        >
+                          会仔细选择适合生产现场的设备提供给我们的客户</span
+                        >。
+                      </h6>
+                      <ul class="list-style-02">
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span>
+                            <strong>传感器</strong
+                            >：温度/湿度传感器、流量传感器、电流传感器、振动传感器（用于设备维护）、车辆温度传感器等。
+                          </span>
+                        </li>
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span
+                            ><strong>数据收集</strong
+                            >：条形码扫描仪、智能秤</span
+                          >
+                        </li>
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span
+                            ><strong>平板电脑</strong
+                            >：通过适用于每个现场的屏幕接收和输入工作订单</span
+                          >
+                        </li>
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span
+                            ><strong>标签打印机</strong>：标签管理软件（Operato
+                            Chef）和工业标签打印机</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="archiDetail3" class="tab-pane fade">
+                  <div class="row align-items-lg-center">
+                    <div class="col-12">
+                      <h6
+                        class="margin-20px-bottom font-weight-500 text-extra-dark-gray w-95 md-w-100"
+                      >
+                        随着自动化设备的增加，现在可以方便地管理运营。<br />我们建立了一个系统，连接现场安装的自动化设备、各种测量和检测设备、PLC等，以
+                        <span
+                          class="text-gradient-fuego-turquoise font-weight-600"
+                          >集中收集、监控和分析数据</span
+                        >。
+                      </h6>
+                      <ul class="list-style-02">
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span
+                            ><strong>网络</strong
+                            >：设计/建设有线/无线网络，供应/配置防火墙等网络安全设备。</span
+                          >
+                        </li>
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span
+                            ><strong>数据收集</strong
+                            >：用于将PLC、各种控制面板、传感器传输数据到服务器、数据记录仪等的网关。</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <!-- end tab item -->
+                <!-- start tab item -->
+                <div id="archiDetail4" class="tab-pane fade">
+                  <div class="row align-items-lg-center">
+                    <div class="col-12">
+                      <h6
+                        class="margin-20px-bottom font-weight-500 text-extra-dark-gray w-95 md-w-100"
+                      >
+                        <span
+                          class="text-gradient-fuego-turquoise font-weight-600"
+                          >Operato Chef是食品和饮料智能工厂的核心</span
+                        >。<br />
+                        利用收集的数据来了解从客户订单到发货车辆的每个流程状态，Operato
+                        Chef为食品和饮料制造公司提供各种适用的功能。
+                      </h6>
+                      <ul class="list-style-02">
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span>智能HACCP和质量管理</span>
+                        </li>
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span>生产/过程管理，仓库/库存管理，发货管理</span>
+                        </li>
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span>缺陷跟踪和根本原因分析</span>
+                        </li>
+                        <li class="margin-5px-bottom">
+                          <i
+                            class="fas fa-check text-small ibex-text-color-deep-green position-relative top-1px margin-5px-right"
+                            aria-hidden="true"
+                          ></i>
+                          <span>了解生产、库存、发货和流程状态等管理指标</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- end tab item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end business architecture detail section -->
+
+      <!-- start business architecture section -->
+      <section
+        class="padding-100px-top padding-5px-bottom md-padding-85px-tb sm-padding-60px-tb text-center text-sm-start"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="d-flex flex-row align-items-center justify-content-center text-center margin-15px-bottom"
+            >
+              <span
+                class="w-25px h-1px ibex-background-color-deep-green opacity-4"
+              ></span>
+              <div
+                class="alt-font text-extra-medium ibex-text-color-deep-green padding-10px-lr"
+              >
+                智能HACCP​
+              </div>
+              <span
+                class="w-25px h-1px ibex-background-color-deep-green opacity-4"
+              ></span>
+            </div>
+            <h4
+              class="alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-1px margin-20px-bottom text-center"
+            >
+              什么是智能HACCP？
+            </h4>
+            <p
+              class="d-inline-block letter-spacing-minus-1 text-extra-medium text-center ibex-text-color-dark"
+            >
+              智能HACCP是一种综合的质量管理系统，使用物联网技术来管理食品制造过程中的关键控制点（CCP）监测数据。<br />它数字化技术日志和与质量相关的数据，允许实时自动记录、管理、验证和存储。<br />这可以防止数据篡改，并有助于分析和使用，延伸到生产管理和库存进出管理。
+            </p>
+
+            <div
+              class="col-12 text-center margin-2-rem-bottom sm-margin-1-rem-bottom"
+            >
+              <img src="images/biz-smartfactory-haccp.png" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end business architecture section -->
+
+      <!-- start business architecture section -->
+      <section
+        class="padding-100px-tb md-padding-50px-tb sm-padding-60px-tb text-center text-sm-start"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="d-flex flex-row align-items-center justify-content-center text-center margin-15px-bottom"
+            >
+              <span
+                class="w-25px h-1px ibex-background-color-deep-green opacity-4"
+              ></span>
+              <div
+                class="font-weight-600 text-extra-medium ibex-text-color-deep-green padding-10px-lr"
+              >
+                现场自动化和数据收集
+              </div>
+
+              <span
+                class="w-25px h-1px ibex-background-color-deep-green opacity-4"
+              ></span>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <div
+                  class="swiper-container black-move swiper-horizontal-3d swiper-pagination-bottom padding-5-rem-top"
+                  data-slider-options='{ "loop": true, "slidesPerView": 1, "centeredSlides":true,"effect":"coverflow","coverflowEffect":{"rotate":0,"stretch":100,"depth":150,"modifier":1.5,"slideShadows":true}, "keyboard": { "enabled": true, "onlyInViewport": true }, "navigation": { "nextEl": ".swiper-button-next-nav-2", "prevEl": ".swiper-button-previous-nav-2" }, "autoplay": { "delay": 8000, "disableOnInteraction": false }, "pagination": { "el": ".swiper-pagination-2", "clickable": true, "dynamicBullets": true }, "breakpoints": { "768": { "slidesPerView": 2 } } }'
+                >
+                  <div class="swiper-wrapper">
+                    <!-- start slider item -->
+                    <div class="swiper-slide bg-white border-radius-4px">
+                      <div
+                        class="position-relative padding-3-rem-lr md-padding-1-rem-lr padding-3-rem-bottom padding-5-rem-top"
+                      >
+                        <img
+                          alt=""
+                          src="images/icon-biz-smartfactory1.png"
+                          class="absolute-middle-center top-0px icon-eq"
+                        />
+                        <div class="testimonials-content">
+                          <span
+                            class="title-extra-small ibex-text-color-dark margin-10px-bottom d-block font-weight-700"
+                            >现场终端</span
+                          >
+                          <p class="margin-20px-bottom word-keep">
+                            Operato
+                            Chef与专业合作伙伴共同提供设备，支持生产领域所需的任务，如数据收集、工作订单接收和配方验证。<br /><br />在食品和饮料制造中使用的现场终端必须能够抵抗湿度、盐度、酸度等因素，并且必须可用水清洗，这与其他工厂环境不同。<br />我们会仔细检查产品的选择以及它们在现场的适用性。
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end slider item -->
+                    <!-- start slider item -->
+                    <div class="swiper-slide bg-white border-radius-4px">
+                      <div
+                        class="position-relative padding-3-rem-lr md-padding-1-rem-lr padding-3-rem-bottom padding-5-rem-top"
+                      >
+                        <img
+                          alt=""
+                          src="images/icon-biz-smartfactory3.png"
+                          class="absolute-middle-center top-0px icon-eq"
+                        />
+                        <div class="testimonials-content">
+                          <span
+                            class="title-extra-small ibex-text-color-dark margin-10px-bottom d-block font-weight-700"
+                            >自动化设备</span
+                          >
+                          <p class="margin-20px-bottom word-keep">
+                            为了提高生产效率，必须从设计/订购阶段开始，审查各种自动化设备的数据收集类型和方法。<br /><br />Operato
+                            Chef与客户指定的自动化设备供应商或合作伙伴合作，提供从设计/订购阶段开始的数据集成方法，以<strong>确保智能工厂的有效性</strong>。
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end slider item -->
+                    <!-- start slider item -->
+                    <div class="swiper-slide bg-white border-radius-4px">
+                      <div
+                        class="position-relative padding-3-rem-lr md-padding-1-rem-lr padding-3-rem-bottom padding-5-rem-top"
+                      >
+                        <img
+                          alt=""
+                          src="images/icon-biz-smartfactory2.png"
+                          class="absolute-middle-center top-0px icon-eq"
+                        />
+                        <div class="testimonials-content">
+                          <span
+                            class="title-extra-small ibex-text-color-dark margin-10px-bottom d-block font-weight-700"
+                            >传感器</span
+                          >
+                          <p class="margin-30px-bottom word-keep">
+                            食品和饮料制造领域的传感器不仅用于收集过程数据，还必须确保HACCP相关数据的可靠性。<br /><br />Operato
+                            Chef在半导体分销方面拥有广泛的专业知识，在
+                            <strong>选择合适的传感器</strong>
+                            的关键第一步中协助消除了现场的纸张。
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- end slider item -->
+                  </div>
+                  <!-- start slider pagination -->
+                  <!--<div class="swiper-pagination swiper-pagination-2"></div>-->
+                  <!-- end slider pagination -->
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 text-center">
+                <span
+                  class="text-extra-large ibex-text-color-dark margin-10px-bottom d-block font-weight-700"
+                  >智能设备和自动化设备合作伙伴</span
+                >
+
+                <div class="container">
+                  <div
+                    class="row align-items-center row-cols-1 row-cols-lg-4 row-cols-sm-2 client-logo-style-02"
+                  >
+                    <!-- start client logo item -->
+                    <div
+                      class="col text-center sm-no-margin wow animate__fadeIn"
+                    >
+                      <a
+                        href="https://www.britestone.com/"
+                        class="client-logo"
+                        target="_blank"
+                        ><img alt="" src="images/biz-smartfactory-partner1.png"
+                      /></a>
+                    </div>
+                    <!-- end client logo item -->
+                    <!-- start client logo item -->
+                    <div
+                      class="col text-center sm-no-margin wow animate__fadeIn"
+                      data-wow-delay="0.2s"
+                    >
+                      <a
+                        href="https://www.vitcon.co.kr/default/"
+                        class="client-logo"
+                        target="_blank"
+                        ><img alt="" src="images/biz-smartfactory-partner2.png"
+                      /></a>
+                    </div>
+                    <!-- end client logo item -->
+                    <!-- start client logo item -->
+                    <div
+                      class="col text-center sm-no-margin wow animate__fadeIn"
+                      data-wow-delay="0.4s"
+                    >
+                      <a
+                        href="https://www.honeywell.com/us/en/global"
+                        class="client-logo"
+                        target="_blank"
+                        ><img alt="" src="images/biz-smartfactory-partner3.png"
+                      /></a>
+                    </div>
+                    <!-- end client logo item -->
+                    <!-- start client logo item -->
+                    <div
+                      class="col text-center sm-no-margin wow animate__fadeIn"
+                      data-wow-delay="0.6s"
+                    >
+                      <a
+                        href="https://www.zebra.com/kr/ko.html"
+                        class="client-logo"
+                        target="_blank"
+                        ><img alt="" src="images/biz-smartfactory-partner4.png"
+                      /></a>
+                    </div>
+                    <!-- end client logo item -->
+                    <!-- start client logo item -->
+                    <div
+                      class="col text-center sm-no-margin wow animate__fadeIn"
+                      data-wow-delay="0.8s"
+                    >
+                      <a
+                        href="https://www.mt.com/kr/ko/home.html"
+                        class="client-logo"
+                        target="_blank"
+                        ><img alt="" src="images/biz-smartfactory-partner5.png"
+                      /></a>
+                    </div>
+                    <!-- end client logo item -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end business architecture section -->
+    </div>
+
+    <!-- start footer -->
+    <footer class="footer-dark bg-slate-blue">
+      <div
+        class="footer-bottom padding-35px-tb border-top border-width-1px border-color-white-transparent"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="col-12 col-md-3 text-center text-md-start sm-margin-20px-bottom"
+            >
+              <a href="index.en.html" class="footer-logo"
+                ><img
+                  src="images/logo-white.png"
+                  data-at2x="images/logo-white@2x.png"
+                  style="width: 160px"
+                  alt=""
+              /></a>
+            </div>
+            <div
+              class="col-12 col-md-6 text-center last-paragraph-no-margin sm-margin-20px-bottom"
+            >
+              <p>
+                &copy; 2022 Operato Chef is Proudly Powered by
+                <a
+                  href="https://www.hatiolab.com/"
+                  target="_blank"
+                  class="text-decoration-line-bottom text-white text-white-hover"
+                  >Hatiolab.Inc</a
+                >
+              </p>
+            </div>
+            <div class="col-12 col-md-3 text-center text-md-end">
+              <div class="social-icon-style-12">
+                <ul class="extra-small-icon light">
+                  <li>
+                    <a
+                      class="facebook"
+                      href="https://www.facebook.com/Hatiolab-104023444762842"
+                      target="_blank"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="linkedin"
+                      href="https://www.linkedin.com/company/hatiolab"
+                      target="_blank"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="youtube"
+                      href="https://www.youtube.com/channel/UCTpKKLZ1pYB87yI-DoEpwfQ/featured"
+                      target="_blank"
+                      ><i class="fab fa-youtube"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- start scroll to top -->
+    <a class="scroll-top-arrow" href="javascript:void(0);"
+      ><i class="feather icon-feather-arrow-up"></i
+    ></a>
+    <!-- end scroll to top -->
+    <!-- javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/theme-vendors.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
